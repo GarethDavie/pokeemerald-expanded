@@ -109,8 +109,8 @@ LittlerootTown_OnFrame:
 
 LittlerootTown_EventScript_StepOffTruckMale::
 	lockall
-	setvar VAR_0x8004, 9
-	setvar VAR_0x8005, 9
+	setvar VAR_0x8004, 7
+	setvar VAR_0x8005, 6
 	call LittlerootTown_EventScript_GoInsideWithMom
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_BRENDANS_HOUSE_TRUCK
 	warpsilent MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F, 8, 8
@@ -120,8 +120,8 @@ LittlerootTown_EventScript_StepOffTruckMale::
 
 LittlerootTown_EventScript_StepOffTruckFemale::
 	lockall
-	setvar VAR_0x8004, 20
-	setvar VAR_0x8005, 10
+	setvar VAR_0x8004, 22
+	setvar VAR_0x8005, 8
 	call LittlerootTown_EventScript_GoInsideWithMom
 	setflag FLAG_HIDE_LITTLEROOT_TOWN_MAYS_HOUSE_TRUCK
 	warpsilent MAP_LITTLEROOT_TOWN_MAYS_HOUSE_1F, 2, 8
@@ -281,13 +281,13 @@ LittlerootTown_EventScript_SetRivalBirchPosForDexUpgrade::
 	end
 
 LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeMale::
-	setobjectxy LOCALID_LITTLEROOT_RIVAL, 6, 10
-	setobjectxy LOCALID_LITTLEROOT_BIRCH, 5, 10
+	setobjectxy LOCALID_LITTLEROOT_RIVAL, 8, 8
+	setobjectxy LOCALID_LITTLEROOT_BIRCH, 7, 8
 	end
 
 LittlerootTown_EventScript_SetRivalBirchPosForDexUpgradeFemale::
-	setobjectxy LOCALID_LITTLEROOT_RIVAL, 13, 10
-	setobjectxy LOCALID_LITTLEROOT_BIRCH, 14, 10
+	setobjectxy LOCALID_LITTLEROOT_RIVAL, 21, 10
+	setobjectxy LOCALID_LITTLEROOT_BIRCH, 22, 10
 	end
 
 LittlerootTown_EventScript_FatMan::
@@ -733,7 +733,8 @@ LittlerootTown_Text_GoodLuckCatchingPokemon:
 
 LittlerootTown_Text_TownSign:
 	.string "LITTLEROOT TOWN\n"
-	.string "“A town that can't be shaded any hue.”$"
+	.string "“A town that can't be shaded any hue.”\p"
+	.string "...Whatever that means.$"
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "PROF. BIRCH'S POKéMON LAB$"
