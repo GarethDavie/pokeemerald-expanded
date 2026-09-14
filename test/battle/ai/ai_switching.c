@@ -756,7 +756,7 @@ AI_SINGLE_BATTLE_TEST("AI_FLAG_SMART_MON_CHOICES: Switchin move data is reset be
 
         gAiLogicData->resistBerryAffected[battlerAtk][battlerDef][moveIndex] = TRUE;
         gAiLogicData->moveLimitations[battlerAtk] |= 1u << moveIndex;
-        CalcBattlerAiMovesData(gAiLogicData, battlerAtk, battlerDef, AI_GetWeather(), gFieldTimers.terrain);
+        CalcBattlerAiMovesData(gAiLogicData, battlerAtk, battlerDef, AI_GetWeather(), gFieldStatuses);
 
         EXPECT_EQ(gAiLogicData->simulatedDmg[battlerAtk][battlerDef][moveIndex].median, 0);
         EXPECT_EQ(gAiLogicData->effectiveness[battlerAtk][battlerDef][moveIndex], 0);
