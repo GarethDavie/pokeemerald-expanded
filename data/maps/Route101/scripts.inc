@@ -59,25 +59,12 @@ Route101_EventScript_PreventExitWest::
 	releaseall
 	end
 
-Route101_EventScript_PreventExitNorth::
-	lockall
-	msgbox Route101_Text_DontLeaveMe, MSGBOX_DEFAULT
-	closemessage
-	applymovement LOCALID_PLAYER, Route101_Movement_PreventExitNorth
-	waitmovement 0
-	releaseall
-	end
-
 Route101_Movement_PreventExitSouth:
 	walk_up
 	step_end
 
 Route101_Movement_PreventExitWest:
 	walk_right
-	step_end
-
-Route101_Movement_PreventExitNorth:
-	walk_down
 	step_end
 
 Route101_Movement_ZigzagoonChaseInCircles:
@@ -124,7 +111,6 @@ Route101_Movement_ZigzagoonFaceBirch:
 	step_end
 
 Route101_Movement_EnterScene:
-	walk_fast_up
 	walk_fast_up
 	walk_fast_up
 	walk_in_place_fast_left
@@ -231,13 +217,13 @@ Route101_Movement_BirchApproachPlayer:
 	step_end
 
 Route101_Text_HelpMe:
-	.string "H-help me!$"
+	.string "N-not again! H-help me!$"
 
 Route101_Text_PleaseHelp:
-	.string "Hello! You over there!\n"
+	.string "Hey! You over there!\n"
 	.string "Please! Help!\p"
 	.string "In my BAG!\n"
-	.string "There's a POKé BALL!$"
+	.string "Use one of the POKé BALLS!$"
 
 Route101_Text_DontLeaveMe:
 	.string "Wh-Where are you going?!\n"
@@ -245,14 +231,16 @@ Route101_Text_DontLeaveMe:
 
 Route101_Text_YouSavedMe:
 	.string "PROF. BIRCH: Whew…\p"
-	.string "I was in the tall grass studying wild\n"
-	.string "POKéMON when I was jumped.\p"
-	.string "You saved me.\n"
-	.string "Thanks a lot!\p"
-	.string "Oh?\p"
-	.string "Hi, you're {PLAYER}{KUN}!\p"
-	.string "This is not the place to chat, so come\n"
-	.string "by my POKéMON LAB later, okay?$"
+	.string "I was in the grass researching a\n"
+	.string "rare POKéMON when I was jumped!\p"
+	.string "I've really got to stop doing field\n"
+	.string "reasearch alone…\p"
+	.string "Anyway, thanks a lot!\n"
+	.string "You really saved me there.\p"
+	.string "Oh! You're {PLAYER}{KUN}!\n"
+	.string "I heard you were moving in today.\p"
+	.string "This is not the place to chat, so let's\n"
+	.string "head to my POKéMON LAB, shall we?$"
 
 Route101_Text_TakeTiredPokemonToPokeCenter:
 	.string "If POKéMON get tired, take them to\n"

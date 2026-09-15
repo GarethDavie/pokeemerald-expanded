@@ -288,13 +288,17 @@ PlayersHouse_1F_Text_IsntItNiceInHere:
 
 PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "The mover's POKéMON do all the work\n"
-	.string "of moving us in and cleaning up after.\l"
-	.string "This is so convenient!\p"
+	.string "of moving your stuff in for you.\l"
+	.string "POKéMON are amazing!\p"
+	.string "It'll be so lovely having you here\n"
+	.string "now that BRENDAN has moved out.\p"
+	.string "Oh, that reminds me!\p"
+	.string "He wanted to remind you to set\n"
+	.string "that clock on your wall.\l"
+	.string "Something about the “flow of time”\n"
+	.string "being linked to them I think.\p"
 	.string "{PLAYER}, your room is upstairs.\n"
-	.string "Go check it out, dear!\p"
-	.string "DAD bought you a new clock to mark\n"
-	.string "our move here.\l"
-	.string "Don't forget to set it!$"
+	.string "Go check it out, dear!$"
 
 PlayersHouse_1F_Text_ArentYouInterestedInRoom:
 	.string "MOM: Well, {PLAYER}?\p"
@@ -310,27 +314,29 @@ PlayersHouse_1F_Text_OhComeQuickly:
 	.string "Quick! Come quickly!$"
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
-	.string "MOM: Look! It's PETALBURG GYM!\n"
-	.string "Maybe DAD will be on!$"
+	.string "MOM: Look! It's the POKéMON LEAGUE!\n"
+	.string "Maybe BRENDAN will be on!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
-	.string "MOM: Oh… It's over.\p"
-	.string "I think DAD was on, but we missed him.\n"
-	.string "Too bad.$"
+	.string "MOM: Oh… It's over.\n"
+	.string "I think we missed him. Too bad.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
-	.string "Oh, yes.\n"
-	.string "One of DAD's friends lives in town.\p"
-	.string "PROF. BIRCH is his name.\p"
-	.string "He lives right next door, so you should\n"
-	.string "go over and introduce yourself.$"
+	.string "That phenomenon they mentioned\n"
+	.string "I think they called it the\l"
+	.string "CLIMATE CHANGE phenomenon?\p"
+	.string "Our neigbour, PROF. BIRCH, is the\n"
+	.string "lead researcher on CLIMATE CHANGE.\p"
+	.string "His youngest is about your age!\p"
+	.string "{PLAYER}, maybe you should go\n"
+	.string "introduce yourself?$"
 
 PlayersHouse_1F_Text_SeeYouHoney:
 	.string "MOM: See you, honey!$"
 
 PlayersHouse_1F_Text_DidYouMeetProfBirch:
 	.string "MOM: Did you introduce yourself to\n"
-	.string "PROF. BIRCH?$"
+	.string "{RIVAL}?$"
 
 PlayersHouse_1F_Text_YouShouldRestABit:
 	.string "MOM: How are you doing, {PLAYER}?\n"
@@ -361,14 +367,21 @@ PlayersHouse_1F_Text_RegisteredMom:
 	.string "in the POKéNAV.$"
 
 PlayersHouse_1F_Text_Vigoroth1:
-	.string "Fugiiiiih!$"
+	.string "You know, this could be considered\n"
+	.string "slave labour. Neither of us are\l"
+	.string "getting paid for this.$"
 
 PlayersHouse_1F_Text_Vigoroth2:
-	.string "Huggoh, uggo uggo…$"
+	.string "Huggoh, uggo uggo…\p"
+	.string "Sorry, this box smells really bad.$"
 
 PlayersHouse_1F_Text_ReportFromPetalburgGym:
-	.string "INTERVIEWER: …We brought you this\n"
-	.string "report from in front of PETALBURG GYM.$"
+	.string "INTERVIEWER: …That concludes our\n"
+	.string "inside look into the life of a \l"
+	.string "POKéMON LEAGUE CHAMPION.\p"
+	.string "Now let's go to our reporter in\n"
+	.string "MOSSDEEP CITY for an update on the\l"
+	.string "CLIMATE CHANGE phenomenon…$"
 
 PlayersHouse_1F_Text_TheresAMovieOnTV:
 	.string "There is a movie on TV.\p"

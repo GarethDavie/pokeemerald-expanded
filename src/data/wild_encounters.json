@@ -83,12 +83,12 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_WURMPLE"
+                "species": "SPECIES_NINETALES"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_POOCHYENA"
+                "species": "SPECIES_NINETALES"
               },
               {
                 "min_level": 2,
@@ -121,8 +121,8 @@
                 "species": "SPECIES_POOCHYENA"
               },
               {
-                "min_level": 5,
-                "max_level": 5,
+                "min_level": 1,
+                "max_level": 1,
                 "species": "SPECIES_NONE"
               },
               {

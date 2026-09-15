@@ -135,14 +135,6 @@ RivalsHouse_1F_EventScript_GoHomeEverySoOften::
 	release
 	end
 
-RivalsHouse_1F_EventScript_RivalSibling::
-	lock
-	faceplayer
-	special GetPlayerBigGuyGirlString
-	msgbox RivalsHouse_1F_Text_DoYouHavePokemon, MSGBOX_DEFAULT
-	release
-	end
-
 LittlerootTown_MaysHouse_1F_EventScript_GoSeeRoom::
 	lockall
 	setvar VAR_0x8004, LOCALID_PLAYERS_HOUSE_1F_MOM
@@ -326,25 +318,28 @@ RivalsHouse_1F_Text_OhYoureTheNewNeighbor:
 	.string "age as you.\p"
 	.string "Our {STR_VAR_1} was excited about making\n"
 	.string "a new friend.\p"
-	.string "Our {STR_VAR_1} is upstairs, I think.$"
+	.string "They're upstairs, I think.$"
 
 RivalsHouse_1F_Text_LikeChildLikeFather:
-	.string "Like child, like father.\p"
 	.string "My husband is as wild about POKéMON\n"
-	.string "as our child.\p"
+	.string "as our children.\p"
 	.string "If he's not at his LAB, he's likely\n"
-	.string "scrabbling about in grassy places.$"
+	.string "scrabbling about in grassy places.\p"
+	.string "Our eldest is always searching for\n"
+	.string "the latest rare POKéMON to study, too.\p"
+	.string "And now {RIVAL} is at it too!\n"
+	.string "It must run in the family.$"
 
 RivalsHouse_1F_Text_TooBusyToNoticeVisit:
 	.string "That {RIVAL}!\p"
-	.string "I guess our child is too busy with\n"
+	.string "I guess they're too busy with\n"
 	.string "POKéMON to notice that you came\l"
 	.string "to visit, {PLAYER}{KUN}.$"
 
 RivalsHouse_1F_Text_WentOutToRoute103:
 	.string "Oh, {RIVAL} went out to ROUTE 103\n"
 	.string "just a little while ago.\p"
-	.string "Like father, like child.\n"
+	.string "Just like MAY,\n"
 	.string "{RIVAL} can't stay quietly at home.$"
 
 RivalsHouse_1F_Text_ShouldGoHomeEverySoOften:
@@ -398,8 +393,3 @@ RivalsHouse_1F_Text_BrendanWhoAreYou:
 	.string "I'm supposed to go help my dad catch\n"
 	.string "some wild POKéMON.\p"
 	.string "Some other time, okay?$"
-
-RivalsHouse_1F_Text_DoYouHavePokemon:
-	.string "Hi, neighbor!\p"
-	.string "Do you already have your\n"
-	.string "own POKéMON?$"

@@ -646,16 +646,22 @@ LittlerootTown_EventScript_GiveRunningShoes::
 	return
 
 LittlerootTown_Text_OurNewHomeLetsGoInside:
-	.string "MOM: {PLAYER}, we're here, honey!\p"
-	.string "It must be tiring riding with our things\n"
-	.string "in the moving truck.\p"
-	.string "Well, this is LITTLEROOT TOWN.\p"
+	.string "MOM: {PLAYER}, you're here, honey!\n"
+	.string "It's so good to see you!\p"
+	.string "Why did you ride in the back with\n"
+	.string "all your stuff though?\l"
+	.string "That seems a bit dangerous…\p"
+	.string "You know, your brother BRENDAN arrived\n"
+	.string "exactly the same way when we moved.\l"
+	.string "You two really are alike.\p"
+	.string "Anyway, welcome to LITTLEROOT TOWN.\p"
 	.string "How do you like it?\n"
-	.string "This is our new home!\p"
-	.string "It has a quaint feel, but it seems to be\n"
-	.string "an easy place to live, don't you think?\p"
-	.string "And, you get your own room, {PLAYER}!\n"
-	.string "Let's go inside.$"
+	.string "This is your new home!\p"
+	.string "It's quieter than you were used to\n"
+	.string "at school, but it'll grow on you!\p"
+	.string "And, no more sharing a dorm, {PLAYER}!\n"
+	.string "You get your brother's old room.\p"
+	.string "Let's go inside and see.$"
 
 LittlerootTown_Text_WaitPlayer:
 	.string "MOM: Wait, {PLAYER}!$"
@@ -694,16 +700,18 @@ LittlerootTown_Text_ComeHomeIfAnythingHappens:
 	.string "Go on, go get them, honey!$"
 
 LittlerootTown_Text_CanUsePCToStoreItems:
-	.string "If you use a PC, you can store items\n"
-	.string "and POKéMON.\p"
+	.string "If you use a PC, you can play POKéMON\n"
+	.string "ROM HACKs anytime you like!\p"
 	.string "The power of science is staggering!$"
 
 LittlerootTown_Text_BirchSpendsDaysInLab:
-	.string "PROF. BIRCH spends days in his LAB\n"
-	.string "studying, then he'll suddenly go out in\l"
-	.string "the wild to do more research…\p"
-	.string "When does PROF. BIRCH spend time\n"
-	.string "at home?$"
+	.string "PROF. BIRCH is researching the extent\n"
+	.string "of geological changes seen\l"
+	.string "all across HOENN.\p"
+	.string "He says it's all due to CLIMATE CHANGE\n"
+	.string "but I don't buy it.\p"
+	.string "Hmm? Why?\p"
+	.string "I'm broke.$"
 
 LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 	.string "Um, um, um!\p"
@@ -712,7 +720,10 @@ LittlerootTown_Text_IfYouGoInGrassPokemonWillJumpOut:
 
 LittlerootTown_Text_DangerousIfYouDontHavePokemon:
 	.string "It's dangerous if you don't have\n"
-	.string "your own POKéMON.$"
+	.string "your own POKéMON.\p"
+	.string "PROF. BIRCH told me make sure not\n"
+	.string "one person leaves this town without\l"
+	.string "a POKéMON. That's the rule!$"
 
 LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "Um, hi!\p"
@@ -724,17 +735,27 @@ LittlerootTown_Text_CanYouGoSeeWhatsHappening:
 	.string "for me?$"
 
 LittlerootTown_Text_YouSavedBirch:
-	.string "You saved PROF. BIRCH!\n"
-	.string "I'm so glad!$"
+	.string "I'm so mad!\p"
+	.string "How could PROF. BIRCH not listen\n"
+	.string "to his own rules?$"
 
 LittlerootTown_Text_GoodLuckCatchingPokemon:
 	.string "Are you going to catch POKéMON?\n"
-	.string "Good luck!$"
+	.string "I won't try to stop you, even if you\l"
+	.string "don't have a POKéMON.\p"
+	.string "Clearly rules only truly apply to\n"
+	.string "those that are lowest in society.\p"
+	.string "The most powerful can only be stopped\n"
+	.string "by undoing the very system that they\l"
+	.string "have built to hold them up.\p"
+	.string "Consider this my first step on the\n"
+	.string "long journey of building a better\l"
+	.string "world for both people and POKéMON.$"
 
 LittlerootTown_Text_TownSign:
 	.string "LITTLEROOT TOWN\n"
 	.string "“A town that can't be shaded any hue.”\p"
-	.string "...Whatever that means.$"
+	.string "…Whatever that means.$"
 
 LittlerootTown_Text_ProfBirchsLab:
 	.string "PROF. BIRCH'S POKéMON LAB$"
@@ -743,7 +764,7 @@ LittlerootTown_Text_PlayersHouse:
 	.string "{PLAYER}'s HOUSE$"
 
 LittlerootTown_Text_ProfBirchsHouse:
-	.string "PROF. BIRCH'S HOUSE$"
+	.string "{RIVAL}'s HOUSE$"
 
 LittlerootTown_Text_BirchSomethingToShowYouAtLab:
 	.string "PROF. BIRCH: Well, well, {PLAYER}{KUN}!\n"
