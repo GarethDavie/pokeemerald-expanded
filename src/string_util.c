@@ -467,15 +467,20 @@ static const u8 *ExpandPlaceholder_KunChan(void)
 
 static const u8 *ExpandPlaceholder_RivalName(void)
 {
-#if IS_FRLG
-    if (gSaveBlock1Ptr->rivalName[0] != EOS)
-        return gSaveBlock1Ptr->rivalName;
-#endif
-
     if (gSaveBlock2Ptr->playerGender == MALE)
-        return (IS_FRLG ? gText_ExpandedPlaceholder_Green : gText_ExpandedPlaceholder_May);
+        return gText_ExpandedPlaceholder_June;
     else
-        return (IS_FRLG ? gText_ExpandedPlaceholder_Red : gText_ExpandedPlaceholder_Brendan);
+        return gText_ExpandedPlaceholder_Max;
+}
+
+static const u8 *ExpandPlaceholder_PlayerSiblingName(void)
+{
+    return gText_ExpandedPlaceholder_Brendan;
+}
+
+static const u8 *ExpandPlaceholder_RivalSiblingName(void)
+{
+    return gText_ExpandedPlaceholder_May;
 }
 
 static const u8 *ExpandPlaceholder_Version(void)
@@ -534,6 +539,8 @@ const u8 *GetExpandedPlaceholder(u32 id)
         [PLACEHOLDER_ID_STRING_VAR_3] = ExpandPlaceholder_StringVar3,
         [PLACEHOLDER_ID_KUN]          = ExpandPlaceholder_KunChan,
         [PLACEHOLDER_ID_RIVAL]        = ExpandPlaceholder_RivalName,
+        [PLACEHOLDER_ID_PLAYER_SIBLING] = ExpandPlaceholder_PlayerSiblingName,
+        [PLACEHOLDER_ID_RIVAL_SIBLING] = ExpandPlaceholder_RivalSiblingName,
         [PLACEHOLDER_ID_VERSION]      = ExpandPlaceholder_Version,
         [PLACEHOLDER_ID_AQUA]         = ExpandPlaceholder_Aqua,
         [PLACEHOLDER_ID_MAGMA]        = ExpandPlaceholder_Magma,

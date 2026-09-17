@@ -651,7 +651,7 @@ LittlerootTown_Text_OurNewHomeLetsGoInside:
 	.string "Why did you ride in the back with\n"
 	.string "all your stuff though?\l"
 	.string "That seems a bit dangerous…\p"
-	.string "You know, your brother BRENDAN arrived\n"
+	.string "You know, your brother {PLAYER_SIBLING} arrived\n"
 	.string "exactly the same way when we moved.\l"
 	.string "You two really are alike.\p"
 	.string "Anyway, welcome to LITTLEROOT TOWN.\p"

@@ -551,6 +551,10 @@
 
 #define MUS_NONE                    0xFFFF
 
+// Custom songs
+#define MUS_ENCOUNTER_MAX      610 
+#define MUS_ENCOUNTER_JUNE     611
+
 #define FIRST_PHONEME_SONG          PH_TRAP_BLEND
 #define LAST_PHONEME_SONG           PH_NURSE_SOLO
 #define NUM_PHONEME_SONGS           (LAST_PHONEME_SONG - FIRST_PHONEME_SONG + 1)

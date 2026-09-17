@@ -291,12 +291,12 @@ PlayersHouse_1F_Text_MoversPokemonGoSetClock:
 	.string "of moving your stuff in for you.\l"
 	.string "POKéMON are amazing!\p"
 	.string "It'll be so lovely having you here\n"
-	.string "now that BRENDAN has moved out.\p"
+	.string "now that {PLAYER_SIBLING} has moved out.\p"
 	.string "Oh, that reminds me!\p"
-	.string "He wanted to remind you to set\n"
-	.string "that clock on your wall.\l"
-	.string "Something about the “flow of time”\n"
-	.string "being linked to them I think.\p"
+	.string "He wanted me to remind you to set\n"
+	.string "that clock on your wall.\p"
+	.string "Something about the “Flow of Time”\n"
+	.string "being linked to it?\p"
 	.string "{PLAYER}, your room is upstairs.\n"
 	.string "Go check it out, dear!$"
 
@@ -315,14 +315,14 @@ PlayersHouse_1F_Text_OhComeQuickly:
 
 PlayersHouse_1F_Text_MaybeDadWillBeOn:
 	.string "MOM: Look! It's the POKéMON LEAGUE!\n"
-	.string "Maybe BRENDAN will be on!$"
+	.string "Maybe {PLAYER_SIBLING} will be on!$"
 
 PlayersHouse_1F_Text_ItsOverWeMissedHim:
 	.string "MOM: Oh… It's over.\n"
 	.string "I think we missed him. Too bad.$"
 
 PlayersHouse_1F_Text_GoIntroduceYourselfNextDoor:
-	.string "That phenomenon they mentioned\n"
+	.string "That phenomenon they mentioned…\n"
 	.string "I think they called it the\l"
 	.string "CLIMATE CHANGE phenomenon?\p"
 	.string "Our neigbour, PROF. BIRCH, is the\n"
