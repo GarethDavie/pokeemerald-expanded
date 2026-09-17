@@ -27,7 +27,7 @@ Route103_EventScript_Rival::
 Route103_EventScript_RivalMay::
 	msgbox Route103_Text_MayRoute103Pokemon, MSGBOX_DEFAULT
 	closemessage
-	playbgm MUS_ENCOUNTER_MAY, TRUE
+	playbgm MUS_ENCOUNTER_JUNE, TRUE
 	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_FacePlayer
 	waitmovement 0
 	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_ExclamationMark
@@ -46,7 +46,7 @@ Route103_EventScript_RivalMay::
 Route103_EventScript_RivalBrendan::
 	msgbox Route103_Text_BrendanRoute103Pokemon, MSGBOX_DEFAULT
 	closemessage
-	playbgm MUS_ENCOUNTER_BRENDAN, TRUE
+	playbgm MUS_ENCOUNTER_MAX, TRUE
 	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_FacePlayer
 	waitmovement 0
 	applymovement LOCALID_ROUTE103_RIVAL, Common_Movement_ExclamationMark
